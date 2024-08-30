@@ -31,7 +31,6 @@
         .font-manrope{
             font-family: "Manrope", sans-serif;
         }
-        
       </style>
    
 </head>
@@ -238,39 +237,85 @@
 
         <!-- Let’s Discuss Next Project Section -->
          
-         <section>
+         <section class="bg-[url('./images/assets/bg.jpg')] p-10 w-full mt-10">
           <!-- lets discus up part -->
-          <div>
-            <!-- <div>
+            
+            <div class="text-center space-y-3">
             <button class="bg-[#a3c57d] p-4 px-10 font-bold rounded-full "> <i class="fa-solid fa-arrow-right text-black text-xl font-bold mb-5"></i> Let’s Connect</button>
             <h3 class="font-bold text-2xl">Let’s Discuss Next Project</h3>
             <p>Share your requirements and a representative will follow up to discuss how Soffid can help secure your organization.</p>
 
-          </div> -->
+          </div>
+          <!-- Input Section -->
+          <div class="mt-8 grid grid-cols-1 space-y-2">
+            <!-- input (first name and last name) -->
+            <div class="grid grid-cols-1 md:grid-cols-2 space-y-2 gap-x-4">
+              <div>
+                <input
+    type="text"
+    placeholder="First Name"
+    class="input input-bordered w-full max-w-full rounded-2xl" />
+              </div>
+              <div>
+                <input
+                type="text"
+                placeholder="Last Name"
+                class="input input-bordered w-full max-w-full rounded-2xl" />
+              </div>
+            </div>
+            <!-- input (phone and email) -->
+           <div class="grid grid-cols-1 md:grid-cols-2 space-y-2 gap-x-4">
+            <div>
+              <input
+              type="tel"
+              placeholder="Phone Number"
+              class="input input-bordered w-full max-w-full rounded-2xl" />
+            </div>
+            <div>
+              <input
+              type="email"
+              placeholder="Email Number"
+              class="input input-bordered w-full max-w-full rounded-2xl" />
+            </div>
+           </div>
+           <!-- Massage Box -->
+            <div class="grid grid-cols-1 md:grid-cols-1 box-border h-32 w-full p-4 border-4 text-">
+              <input
+              type="text"
+              placeholder="Write your massage here"
+              class="input input-bordered w-full max-w-full rounded-2xl h-40 md:max-w-full"/>
+            </div>
+            <!-- button(Send mail) -->
+            
+          </div>
+          <div class="mt-20 text-center">
+            <button class="font-extrabold text-3xl bg-[#ABEF5F] rounded-full p-4 ">Send Mail  <i class="fa-solid fa-arrow-right bg-black text-white rounded-full p-2 -rotate-45"></i></button>
+
           </div>
 
          </section>
       </main>
+      <!-- Footer Section -->
+ 
+<footer class="bg-black w-full">
+  <div class="p-10 text-center">
+    <button class="text-3xl text-white font-bold"> <i class="fa-solid fa-arrow-right bg-[#62ab0f] text-black rounded-full p-2 -rotate-45"></i> Rinterio</button>
+    <p class="text-gray-400">Interior design is all about how we experience spaces. </p>
+  </div>
+  <div class="grid md:grid-cols-5 gap-3 xl:gap-5 text-gray-300 justify-center p-10">
+    <a href="">Home</a>
+    <a href="">Service</a>
+    <a href="">Portfolio</a>
+    <a href="">Blogs</a>
+    <a href="">Contact</a>
+  </div>
+  <div class="mt-8 text-center">
+    <button class="font-extrabold text-3xl bg-[#ABEF5F] rounded-full p-4 mb-10">Book Consult  <i class="fa-solid fa-arrow-right bg-black text-white rounded-full p-2 -rotate-45 "></i></button>
+  </div>
 
-      <!-- Footer Part -->
+</footer>
 
-      <footer class="bg-black w-full">
-        <div class="mt-10 p-10 text-center">
-          <button class="text-3xl text-white font-bold"> <i class="fa-solid fa-arrow-right bg-[#62ab0f] text-black rounded-full p-2 -rotate-45"></i> Rinterio</button>
-          <p class="text-gray-400">Interior design is all about how we experience spaces. </p>
-        </div>
-        <div class="grid md:grid-cols-5 gap-3 xl:gap-5 text-gray-300 justify-center p-10">
-          <a href="">Home</a>
-          <a href="">Service</a>
-          <a href="">Portfolio</a>
-          <a href="">Blogs</a>
-          <a href="">Contact</a>
-        </div>
-        <div class="mt-8 text-center">
-          <button class="font-extrabold text-3xl bg-[#ABEF5F] rounded-full p-4 mb-10">Book Consult  <i class="fa-solid fa-arrow-right bg-black text-white rounded-full p-2 -rotate-45 "></i></button>
-        </div>
-
-      </footer>
-    
+      
 </body>
+
 </html>
